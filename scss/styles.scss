@@ -1,3 +1,12 @@
-@import "design";
-@import "reusable";
 @import "variables";
+@import "styles.scss";
+@import"design";
+@import"reusable";
+@import "computers";
+@import "product";
+
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
