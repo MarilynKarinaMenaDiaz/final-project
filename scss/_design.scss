@@ -1,0 +1,161 @@
+@import "variables";
+
+.align_block--gray {
+  border: $gray solid 3px;
+  border-radius: 5px;
+  display: block;
+  height: 57px;
+  margin: 5px 43px 25px;
+  width: 419px;
+}
+
+.align_block--black {
+  border: solid 3px;
+  border-radius: 5px;
+  display: block;
+  height: 57px;
+  margin: 25px -38px 5px;
+  width: 606px;
+}
+
+.align_block-search {
+  border: solid 1px;
+  border-radius: 5px;
+  display: block;
+  height: 46px;
+  margin: 15px 164px;
+  width: 173px;
+}
+
+.align_block-search::placeholder {
+  color: $black;
+}
+
+.align--center {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bg--black {
+  background-color: $black;
+}
+
+.btn--neon {
+  background-color: $neon-blue;
+  border: $neon-blue solid 1px;
+  border-radius: 5px;
+  height: 40px;
+  margin: 10px 0;
+  padding: 6px 26px;
+  width: 160px;
+}
+
+.btn--neon:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn--black {
+  color: $gray;
+  background-color: $black;
+  border-radius: 5px;
+  height: 40px;
+  margin: 10px 0;
+  padding: 6px 40px;
+  width: 160px;
+}
+
+.btn--black:hover {
+  color: $neon-blue;
+  cursor: pointer;
+}
+
+.btn-cart {
+  background-color: #fff;
+  background-image: url(../images/cart.png);
+  background-repeat: no-repeat;
+  background-position: 140px;
+  background-size: 40px;
+  border: $black solid 1px;
+  border-radius: 5px;
+  height: 57px;
+  padding: 8px 32px;
+  margin: 10px 0;
+  text-align: initial;
+  width: 222px;
+}
+
+.btn-cart:hover {
+  border-color: $neon-blue;
+  cursor: pointer;
+}
+
+.btn-acc {
+  background-color: #fff;
+  border: $black solid 1px;
+  border-radius: 5px;
+  height: 57px;
+  padding: 8px 32px;
+  margin: 10px 0;
+  width: 362px;
+}
+
+.btn-acc:hover {
+  color: $neon-blue;
+  cursor: pointer;
+}
+
+.border--neon {
+  border: $neon-blue 1px solid;
+}
+
+.container-design {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.no-style__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.neonblue {
+  color: $neon-blue;
+}
+
+.subtitle {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.subtitle--gray {
+  color: #7d7d7d;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.text__regular {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.text__light {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+}
