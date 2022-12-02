@@ -1,6 +1,6 @@
-.bg--black{
+.bg--black {
   text-align: center;
-  background-color:$black;
+  background-color: $black;
   width: 101%;
   height: 196px;
   margin-left: -8px;
@@ -9,15 +9,15 @@
   line-height: 169px;
   color: $gray;
 }
-.subtitle--line{
+.subtitle--line {
   text-align: center;
   border-bottom: 1px solid $black;
 }
-.cont--img{
+.cont--img {
   margin-left: 33px;
   margin-bottom: 0px;
 }
-.cont--flex{
+.cont--flex {
   display: flex;
   align-items: center;
   justify-content: end;
@@ -25,13 +25,13 @@
   margin-top: -48%;
   margin-left: 68%;
 }
-.subtitle--center{
+.subtitle--center {
   text-align: center;
 }
-.subtitle--cont{
-font-size: 48px;
-text-align: center;
+.subtitle--cont {
+  font-size: 48px;
+  text-align: center;
 }
-.container-desc{
-  margin:0 auto;
+.container-desc {
+  margin: 0 auto;
 }
