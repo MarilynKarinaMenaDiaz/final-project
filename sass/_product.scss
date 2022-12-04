@@ -1,36 +1,4 @@
-.list--feautures--mouse {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.container--flex{
   display: flex;
-  flex-direction: column;
-  margin-left: 5%;
-  margin-top: 3%;
-  width: 38%;
-}
-
-
-.list--feautures--mouse li {
-  margin: 0 0 3rem 0;
-}
-
-
-.container--list--flex {
-  display: flex;
-  justify-content: space-between;
-  font-size: 24px;
-}
-
-.list--feautures--mouse--right {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  margin-left: 57%;
-  margin-top: -45%;
-}
-
-.list--feautures--mouse--right li {
-  margin: 0 0 3rem 0;
+  justify-content: center;
 }
