@@ -48,7 +48,7 @@
                 <li><a href="#">Speakers</a></li>
                 <li><a href="#">Tools</a></li>
                 <li><a href="#">Headsets</a></li>
-                <li><a href="#">Mouse</a></li>
+                <li><a href="accessories.html">Mouse</a></li>
                 <li><a href="#">Keyboard</a></li>
                 <li><a href="#">Microphone</a></li>
                 <li><a href="#">Web Cam</a></li>
@@ -56,34 +56,38 @@
             </li>
           </ul>
         </li>
-        <li><a class="title" href="#">U.C.O</a></li>
+        <li><a class="title" href="index.html">U.C.O</a></li>
         <li><a href="#"><img src="public/img/cart.png" alt=""></a></li>
-        <li><a class="reg--24" href="#">LOG IN</a></li>
+        <li><a class="reg--24" href="log_in.html">LOG IN</a></li>
       </ul>
     </nav>
   </header>
   <main class="container">
     <div class="log-in--margin">
       <div class="form--center">
-        <img src="public/img/profile-logo-big.png" alt="">
+        <img class="profile-icon" src="public/img/profile-logo-big.png" alt="">
         <h2 class="bold--48">LOG IN</h2>
       </div>
       <form class="log__form">
-        <label class="reg--24" for="log-email">Enter your email</label>
-        <input class="align_block--black btm-space" type="text" name="log-email" id="log-email">
-        <label class="reg--24" for="log-pass">Enter your password</label>
-        <input class="align_block--black btm-space" type="text" name="log-pass" id="log-pass">
+        <div>
+          <label class="reg--24" for="log-email">Enter your email</label>
+          <input class="align_block--black btm-space" type="text" name="log-email" id="log-email">
+        </div>
+        <div>
+          <label class="reg--24" for="log-pass">Enter your password</label>
+          <input class="align_block--black btm-space" type="text" name="log-pass" id="log-pass">
+        </div>
       </form>
       <div class="pass">
-        <div>
+        <div class="pass--justify">
           <input class="checkbox" type="checkbox" name="remind" id="remind">
           <label class="reg--24" for="remind">Remind me</label>
         </div>
-        <a class="reg--24" href="#">Forgot your password?</a>
+        <a class="reg--24 forgot" href="#">Forgot your password?</a>
       </div>
       <div>
-        <button class="btn--black text__regular btn--block" type="submit">Sign in</button>
-        <button class="btn-acc subtitle btn--block" type="submit">Create an account</button>
+        <button class="btn--black text__regular sign-in__btn--margin-1" type="submit">Sign in</button>
+        <a class="btn-acc subtitle sign-in__btn--margin-2" type="submit">Create an account</a>
       </div>
     </div>
   </main>

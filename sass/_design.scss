@@ -10,6 +10,7 @@
 .align_block--black {
   border: solid 3px;
   border-radius: 5px;
+  font-size: 24px;
   display: block;
   height: 57px;
   margin: 25px -38px 5px;
@@ -21,7 +22,6 @@
   border-radius: 5px;
   display: block;
   height: 46px;
-  //margin: 15px 164px;
   width: 173px;
 }
 
@@ -161,4 +161,24 @@
   color: $black;
   font-size: 48px;
   font-weight: 700;
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+  .align_block--black {
+    width: 265px;
+  }
+
+  .align_block-search {
+    width: 83px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .align_block--black {
+    width: 265px;
+  }
+
+  .align_block-search {
+    width: 83px;
+  }
 }
