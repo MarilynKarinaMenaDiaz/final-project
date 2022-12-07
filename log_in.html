@@ -14,22 +14,22 @@
 
 <body>
   <header>
-    <nav>
-      <ul>
+    <nav class="container">
+      <ul class="list-nav">
         <li><input class="align_block-search" type="search" name="search" id="search" placeholder="SEARCH"></li>
-        <li>
-          <ul>
-            <h2>SEARCH</h2>
+        <li class="wrapper">
+          <a class="reg--24" href="#">SHOP</a>
+          <ul class="menu">
             <li>
-              <h3>COMPUTERS</h3>
-              <ul>
+              <h3 class="title--white">COMPUTERS</h3>
+              <ul class="list-item">
                 <li><a href="#">Pre-assembled PCs</a></li>
                 <li><a href="#">Laptops </a></li>
               </ul>
             </li>
             <li>
-              <h3>COMPONENTS</h3>
-              <ul>
+              <h3 class="title--white">COMPONENTS</h3>
+              <ul class="list-item">
                 <li><a href="#">Motherboard</a></li>
                 <li><a href="#">Processor</a></li>
                 <li><a href="#">RAM Memory</a></li>
@@ -43,8 +43,8 @@
               </ul>
             </li>
             <li>
-              <h3>ACCESSORIES</h3>
-              <ul>
+              <h3 class="title--white">ACCESSORIES</h3>
+              <ul class="list-item">
                 <li><a href="#">Speakers</a></li>
                 <li><a href="#">Tools</a></li>
                 <li><a href="#">Headsets</a></li>
@@ -58,36 +58,46 @@
         </li>
         <li><a class="title" href="#">U.C.O</a></li>
         <li><a href="#"><img src="public/img/cart.png" alt=""></a></li>
-        <li><a href="#">LOG IN</a></li>
+        <li><a class="reg--24" href="#">LOG IN</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-    <img src="public/img/profile-logo-big.png" alt="">
-    <h2>LOG IN</h2>
-    <div>
-      <label for="log-email">Enter your email</label>
-      <input class="align_block--black" type="text" name="log-email" id="log-email">
-      <label for="log-pass">Enter your password</label>
-      <input class="align_block--black" type="text" name="log-pass" id="log-pass">
+  <main class="container">
+    <div class="log-in--margin">
+      <div class="form--center">
+        <img src="public/img/profile-logo-big.png" alt="">
+        <h2 class="bold--48">LOG IN</h2>
+      </div>
+      <form class="log__form">
+        <label class="reg--24" for="log-email">Enter your email</label>
+        <input class="align_block--black btm-space" type="text" name="log-email" id="log-email">
+        <label class="reg--24" for="log-pass">Enter your password</label>
+        <input class="align_block--black btm-space" type="text" name="log-pass" id="log-pass">
+      </form>
+      <div class="pass">
+        <div>
+          <input class="checkbox" type="checkbox" name="remind" id="remind">
+          <label class="reg--24" for="remind">Remind me</label>
+        </div>
+        <a class="reg--24" href="#">Forgot your password?</a>
+      </div>
+      <div>
+        <button class="btn--black text__regular btn--block" type="submit">Sign in</button>
+        <button class="btn-acc subtitle btn--block" type="submit">Create an account</button>
+      </div>
     </div>
-    <div>
-      <input type="checkbox" name="remind" id="remind">
-      <label for="remind">Remind me</label>
-      <a href="#">Forgot your password?</a>
-    </div>
-    <button class="btn--black text__regular" type="submit">Sign in</button>
-    <button class="btn-acc subtitle" type="submit">Create an account</button>
   </main>
-  <footer>
-    <a href="#">SUPPORT</a>
-    <a href="#">ABOUT US</a>
-    <div>
+  <footer class="footer--bg">
+    <div class="support__ancord">
+      <a class="footer__link--white reg--24" href="#">SUPPORT</a>
+      <a class="footer__link--white reg--24" href="#">ABOUT US</a>
+    </div>
+    <div class="social-media">
       <a href="#"><img src="public/img/facebook.png" alt=""></a>
       <a href="#"><img src="public/img/tiktok.png" alt=""></a>
       <a href="#"><img src="public/img/instagram.png" alt=""></a>
     </div>
-    <a href="#">TERMS & CONDITIONS</a>
+    <a class="footer__link--white reg--24" href="#">TERMS & CONDITIONS</a>
   </footer>
 </body>
 

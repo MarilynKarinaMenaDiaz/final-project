@@ -62,19 +62,22 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <img src="public/img/profile-logo-big.png" alt="">
-    <h2>Create an account</h2>
-    <div>
-      <label for="log-name">Enter your name</label>
-      <input class="align_block--black" type="text" name="log-name" id="log-name">
-      <label for="log-email">Enter your email</label>
-      <input class="align_block--black" type="text" name="log-email" id="log-email">
-      <label for="log-pass">Enter your password</label>
-      <input class="align_block--black" type="text" name="log-pass" id="log-pass">
+  <main class="container">
+    <div class="form--center">
+      <img src="public/img/profile-logo-big.png" alt="">
+      <h2 class="bold--48">Create an account</h2>
     </div>
-    <p>Your personal information will be used to process your order and support your experience on this site. <a
-        href="#">Privacy Policy</a></p>
+    <form class="log__form">
+      <label class="reg--24" for="log-name">Enter your name</label>
+      <input class="align_block--black" type="text" name="log-name" id="log-name">
+      <label class="reg--24" for="log-email">Enter your email</label>
+      <input class="align_block--black" type="text" name="log-email" id="log-email">
+      <label class="reg--24" for="log-pass">Enter your password</label>
+      <input class="align_block--black" type="text" name="log-pass" id="log-pass">
+    </form>
+    <p class="policy reg--24">Your personal information will be used to process your order and support your experience
+      on this
+      site.<span><a class="policy--neon" href="#">Privacy Policy</a></span></p>
     <button class="btn--black text__regular" type="submit">Register</button>
   </main>
   <footer>
