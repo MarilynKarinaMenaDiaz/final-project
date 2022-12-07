@@ -1,0 +1,35 @@
+.footer--bg {
+  align-items: center;
+  background-color: $black;
+  display: flex;
+  gap: 385px;
+  justify-content: center;
+  padding: 43px 130px;
+}
+
+.footer__link--white {
+  color: #fff;
+  &:hover {
+    color: $neon-blue;
+  }
+}
+
+.social-media {
+  display: flex;
+  gap: 23px;
+}
+
+.support__ancord {
+  display: flex;
+  gap: 25px;
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+  .footer--bg {
+    gap: 36px;
+    padding: 43px 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+}

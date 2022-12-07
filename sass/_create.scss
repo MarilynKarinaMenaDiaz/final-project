@@ -1,0 +1,9 @@
+.policy {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.policy--neon:hover {
+  color: $neon-blue;
+}

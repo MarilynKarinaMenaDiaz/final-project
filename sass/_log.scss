@@ -1,0 +1,94 @@
+.btm-space {
+  margin-bottom: 65px;
+}
+
+.bold--48 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.container {
+  width: 1549px;
+  margin: 0 auto;
+}
+
+.checkbox {
+  border: $black solid 2px;
+  border-radius: 5px;
+  height: 36px;
+  width: 36px;
+}
+
+.form--center {
+  text-align: center;
+}
+
+.forgot:hover {
+  color: $neon-blue;
+}
+
+.log__form {
+  padding: 126px 496px 65px;
+}
+
+.log-in--margin {
+  margin: 126px 0 117px;
+}
+
+.reg--24 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.pass {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sign-in__btn--margin-1 {
+  display: block;
+  margin: 111px 0 189px 698px;
+}
+
+.sign-in__btn--margin-2 {
+  display: block;
+  margin-left: 596px;
+}
+
+.pass--justify {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+  .container {
+    max-width: 870px;
+  }
+
+  .log__form {
+    padding: 44px 96px 12px;
+    gap: 56px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .profile-icon {
+    height: 172px;
+    width: auto;
+  }
+
+  .log-in--margin {
+    margin: 25px 0 51px;
+  }
+
+  .sign-in__btn--margin-1 {
+    margin: 90px 0 30px 350px;
+  }
+
+  .sign-in__btn--margin-2 {
+    margin-left: 256px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+}
