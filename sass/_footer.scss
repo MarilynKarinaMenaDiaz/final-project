@@ -9,6 +9,9 @@
 
 .footer__link--white {
   color: #fff;
+  &:hover {
+    color: $neon-blue;
+  }
 }
 
 .social-media {
@@ -19,4 +22,14 @@
 .support__ancord {
   display: flex;
   gap: 25px;
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+  .footer--bg {
+    gap: 36px;
+    padding: 43px 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
 }

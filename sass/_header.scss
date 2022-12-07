@@ -11,7 +11,7 @@ a {
   gap: 210px;
   list-style: none;
   justify-content: space-evenly;
-  padding-right: 164px;
+  padding: 44px 128px 35px 0;
   text-align: center;
 }
 
@@ -21,8 +21,9 @@ a {
     color: #fff;
     font-size: 24px;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 25px;
     &:hover {
+      color: $neon-blue;
       text-decoration: underline;
     }
   }
@@ -60,11 +61,21 @@ a {
   transition: all 0.3s ease-in-out;
   &:hover {
     .menu {
-      height: 472px;
+      height: 528px;
     }
     a::before {
       transform: scale(1, 1);
       visibility: visible;
     }
   }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+  .list-nav {
+    gap: 20px;
+    padding: 44px 46px 26px 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
 }
