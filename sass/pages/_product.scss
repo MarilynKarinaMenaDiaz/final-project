@@ -7,38 +7,7 @@ h2.subtitle {
   margin-top: 9px;
 }
 
-.container--border {
-  border: 1px solid #000;
-  padding: 27px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 5% 0% 25% -18%;
-}
-
-
-.subtitle--border {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.list--border {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  padding-left: 0;
-  list-style-type: none;
-}
-
-.list--border > li {
-  margin-bottom: 10px;
-}
-.list--border > li > a {
-  color: $black;
-  text-decoration: none;
-}
-
-.container--corsair {
+.container--product {
   display: flex;
   align-items: center;
   justify-content: end;
@@ -46,7 +15,7 @@ h2.subtitle {
   margin: 0 0% 21% 0%;
 }
 
-.subtitle--corsair {
+.subtitle__secondary{
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
@@ -54,15 +23,15 @@ h2.subtitle {
   margin: 20px;
 }
 
-.span--price {
+.text--price {
   font-weight: 700;
   font-size: 48px;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   line-height: 56px;
   text-align: center;
 }
 
-.list--corsair {
+.list--styles__features {
   list-style: none;
   font-weight: 500;
   font-size: 24px;
@@ -71,12 +40,12 @@ h2.subtitle {
   margin: 0% 0% 8% -8%;
 }
 
-.img--half--star{
+.img--star{
   margin: 2rem;
 }
 
 .img--corsair{
   width: 497px;
   height: 497px;
-  margin-top: 3%;
+  margin-top: 3.5%;
 }
