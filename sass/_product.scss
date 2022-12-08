@@ -8,14 +8,13 @@ h2.subtitle {
 }
 
 .container--border {
-  border: 1px solid #000;
+  border: 1px solid $black;
   padding: 27px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5% 0% 25% -18%;
+  margin: 5% 0% 25% -20%;
 }
-
 
 .subtitle--border {
   text-align: center;
@@ -38,7 +37,7 @@ h2.subtitle {
   text-decoration: none;
 }
 
-.container--corsair {
+.container--product {
   display: flex;
   align-items: center;
   justify-content: end;
@@ -46,7 +45,7 @@ h2.subtitle {
   margin: 0 0% 21% 0%;
 }
 
-.subtitle--corsair {
+.subtitle--secondary {
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
@@ -62,7 +61,7 @@ h2.subtitle {
   text-align: center;
 }
 
-.list--corsair {
+.list--styles_features {
   list-style: none;
   font-weight: 500;
   font-size: 24px;
@@ -71,12 +70,12 @@ h2.subtitle {
   margin: 0% 0% 8% -8%;
 }
 
-.img--half--star{
+.img--star{
   margin: 2rem;
 }
 
 .img--corsair{
   width: 497px;
   height: 497px;
-  margin-top: 3%;
+  margin-top: 3.5%;
 }

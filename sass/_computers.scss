@@ -18,25 +18,17 @@
   line-height: 60px;
 }
 
-.cont--img {
+.container--img{
   margin: 0% 2%;
-}
-
-.cont--flex {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  flex-direction: column;
-  margin: -48% 0% 7% 67%;
+  width: 802px;
+  height: 608.67px;
 }
 
 .subtitle--center {
+  margin-top: 52px;
+  margin-bottom: 53px;
   text-align: center;
-  font-weight: 700;
   font-size: 48px;
-  line-height: 56px;
-  margin-bottom: 49px;
-  margin-top: 54px;
 }
 
 .subtitle--cont {
@@ -53,17 +45,16 @@
   text-align: center;
 }
 
-.list--features{
-  list-style: none;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  margin-bottom: 12%;
+.cont--flex{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  margin: 0% 0% 21% 0%;
 }
 
 .desc--line{
-  border-top: 1px solid #000000;
+  border-top: 1px solid $black;
 }
 .subtitle--desc{
   font-weight: 600;
@@ -94,9 +85,6 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  // margin-left: 5%;
-  // margin-top: 1%;
-  // width: 38%;
   margin-left: 6%;
   width: 36%; 
 }
@@ -111,12 +99,219 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  // margin-left: 57%;
-  // margin-top: -27%;
-  // width: 25%;
   width: 42%;
 }
 
 .list--styles--2 li {
   margin: 0 0 2rem 0;
 }
+
+
+// reponsive para movil
+// @media(min-width: 320px) and (max-width: 767px) {
+//   header {
+//     display: flex;
+//     justify-content: space-around;
+//   }
+//   input {
+//     width: 80%;
+//   }
+//   ul {
+//     flex-wrap: wrap;
+//     flex-direction: column;
+//   }
+//   h2 {
+//     font-size: 22px;
+//   }
+//   h3 {
+//     font-size: 18px;
+//   }
+//   .title {
+//     font-size: 20px;
+//   }
+//   .align_block-search {
+//     margin-right: 0;
+//   }
+//   .bg--black {
+//     font-size: 22px;
+//   }
+//   .subtitle--line {
+//     font-size: 18px;
+//   }
+//   .container--img{
+//     width: 100%;
+//   }
+//   img {
+//     width: 100%;
+//   }
+//   .subtitle--cont {
+//     font-size: 16px;
+//   }
+//   .text--price {
+//     font-size: 14px;
+//   }
+//   .list--features {
+//     font-size: 11px;
+//   }
+//   .subtitle {
+//     font-size: 12px;
+//   }
+//   .subtitle--desc {
+//     font-size: 18px;
+//   }
+//   .text--desc {
+//     font-size: 14px;
+//   }
+//   .subtitle--center {
+//     font-size: 18px;
+//   }
+//   footer {
+//     flex-direction: column;
+//   }
+//   img {
+//     width: 30px;
+//   }
+//   a {
+//     font-size: 15px;
+//   }
+// }
+
+
+//reponsive para tablet
+// @media (min-width: 768px) and (max-width: 1023px) {
+//   header {
+//     display: flex;
+//     justify-content: space-around;
+//   }
+//   input {
+//     width: 50%;
+//   }
+//   ul {
+//     flex-wrap: wrap;
+//     flex-direction: row;
+//   }
+//   h2 {
+//     font-size: 25px;
+//   }
+//   h3 {
+//     font-size: 20px;
+//   }
+//   .title {
+//     font-size: 25px;
+//   }
+//   .align_block-search {
+//     margin-right: 0;
+//   }
+//   .bg--black {
+//     font-size: 25px;
+//   }
+//   .subtitle--line {
+//     font-size: 20px;
+//   }
+//   .container--img{
+//     width: 50%;
+//   }
+//   img {
+//     width: 100%;
+//   }
+//   .subtitle--cont {
+//     font-size: 18px;
+//   }
+//   .text--price {
+//     font-size: 16px;
+//   }
+//   .list--features {
+//     font-size: 14px;
+//   }
+//   .subtitle {
+//     font-size: 14px;
+//   }
+//   .subtitle--desc {
+//     font-size: 20px;
+//   }
+//   .text--desc {
+//     font-size: 16px;
+//   }
+//   .subtitle--center {
+//     font-size: 20px;
+//   }
+//   footer {
+//     flex-direction: row;
+//   }
+//   img {
+//     width: 40px;
+//   }
+//   a {
+//     font-size: 16px;
+//   }
+// }
+
+
+//reponsive para desktop
+// @media (min-width: 1024px) {
+//   header {
+//     display: flex;
+//     justify-content: space-around;
+//   }
+//   input {
+//     width: 40%;
+//   }
+//   ul {
+//     flex-wrap: wrap;
+//     flex-direction: row;
+//   }
+//   h2 {
+//     font-size: 30px;
+//   }
+//   h3 {
+//     font-size: 24px;
+//   }
+//   .title {
+//     font-size: 30px;
+//   }
+//   .align_block-search {
+//     margin-right: 30px;
+//   }
+//   .bg--black {
+//     font-size: 30px;
+//   }
+//   .subtitle--line {
+//     font-size: 24px;
+//   }
+//   .container--img{
+//     width: 40%;
+//   }
+//   img {
+//     width: 100%;
+//   }
+//   .subtitle--cont {
+//     font-size: 22px;
+//   }
+//   .text--price {
+//     font-size: 18px;
+//   }
+//   .list--features {
+//     font-size: 16px;
+//   }
+//   .subtitle {
+//     font-size: 16px;
+//   }
+//   .subtitle--desc {
+//     font-size: 24px;
+//   }
+//   .text--desc {
+//     font-size: 18px;
+//   }
+//   .subtitle--center {
+//     font-size: 24px;
+//   }
+//   footer {
+//     flex-direction: row;
+//   }
+//   img {
+//     width: 50px;
+//   }
+//   a {
+//     font-size: 18px;
+//   }
+// }
