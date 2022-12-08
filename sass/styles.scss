@@ -1,13 +1,20 @@
-@import "variables";
-@import "design";
-@import "computers";
-@import "product";
-@import "header";
-@import "footer";
-@import "log";
-@import "create";
+@import "utils/variables";
 
-body {
-  font-family: "Roboto", sans-serif;
-  margin: 0 auto;
-}
+@import"base/typography";
+@import"base/design";
+
+
+@import"pages/computers";
+@import"pages/create";
+@import"pages/log";
+@import"pages/product";
+
+
+@import"layout/footer";
+@import"layout/header";
+
+
+@import"components/box-accesories";
+@import"components/description";
+@import"components/subtitle-line";
+@import"components/bg-black-title";
