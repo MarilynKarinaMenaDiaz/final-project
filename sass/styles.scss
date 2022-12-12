@@ -7,6 +7,7 @@
 @import"pages/create";
 @import"pages/log";
 @import"pages/product";
+@import"pages/store-interface";
 
 @import"layout/footer";
 @import"layout/header";
@@ -15,6 +16,10 @@
 @import"components/description";
 @import"components/subtitle-line";
 @import"components/bg-black-title";
+@import"components/internal-menu";
+@import"components/card-for-product";
+@import"components/big-banner";
+@import"components/suscription-form";
 
 body{
   margin: 0;
