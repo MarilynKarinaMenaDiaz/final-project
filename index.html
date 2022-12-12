@@ -12,22 +12,22 @@
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
+    <nav class="container">
+      <ul class="list-nav">
         <li><input class="align_block-search" type="search" name="search" id="search" placeholder="SEARCH"></li>
-        <li>
-          <ul>
-            <h2>SEARCH</h2>
+        <li class="wrapper">
+          <a class="reg--24" href="#">SHOP</a>
+          <ul class="menu">
             <li>
-              <h3>COMPUTERS</h3>
-              <ul>
+              <h3 class="title--white">COMPUTERS</h3>
+              <ul class="list-item">
                 <li><a href="#">Pre-assembled PCs</a></li>
                 <li><a href="#">Laptops </a></li>
               </ul>
             </li>
             <li>
-              <h3>COMPONENTS</h3>
-              <ul>
+              <h3 class="title--white">COMPONENTS</h3>
+              <ul class="list-item">
                 <li><a href="#">Motherboard</a></li>
                 <li><a href="#">Processor</a></li>
                 <li><a href="#">RAM Memory</a></li>
@@ -41,8 +41,8 @@
               </ul>
             </li>
             <li>
-              <h3>ACCESSORIES</h3>
-              <ul>
+              <h3 class="title--white">ACCESSORIES</h3>
+              <ul class="list-item">
                 <li><a href="#">Speakers</a></li>
                 <li><a href="#">Tools</a></li>
                 <li><a href="#">Headsets</a></li>
@@ -54,39 +54,48 @@
             </li>
           </ul>
         </li>
-        <li><a class="title" href="#">U.C.O</a></li>
+        <li><a class="title" href="index.html">U.C.O</a></li>
         <li><a href="#"><img src="public/img/cart.png" alt=""></a></li>
-        <li><a href="#">LOG IN</a></li>
+        <li><a class="reg--24" href="log_in.html">LOG IN</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <div>
-      <h1>CREATE. PLAY. DOMINATE.</h1>
-      <p>High-performance desktop with up to 16-core, overclockable AMD Ryzen™ 5000 series processors designed for
-        gamers who create.</p>
-      <div>
-        <button class="btn-cart subtitle" type="submit">ADD</button>
-        <a href="#">+ SEE MORE</a>
+    <div class="banner-major">
+      <div class="banner-major--text">
+        <h1>CREATE. PLAY. DOMINATE.</h1>
+        <p>High-performance desktop with up to 16-core, overclockable AMD Ryzen™ 5000 series processors designed for
+          gamers who create.</p>
+        <div class="banner-major--buttons">
+          <button class="btn-cart subtitle" type="submit">ADD</button>
+          <a class="buttons__see-more" href="#">+ SEE MORE</a>
+        </div>
       </div>
       <img src="public/img/ComputerAlone.png" alt="">
     </div>
-    <div>
-      <p>Subscribe to our newsletter and keep up to date with discounts and special offers</p>
-      <input class="align_block--gray" type="text" placeholder="Enter your name">
-      <input class="align_block--gray" type="text" placeholder="Enter your email">
-      <button class="btn--neon text__regular" type="submit">Subscribe </button>
+    <div class="to-suscribe">
+      <div class="to-suscribe--order">
+        <p>Subscribe to our newsletter and keep up to date with discounts and special offers</p>
+        <div class="to-suscribe--income">
+          <input class="align_block--gray" type="text" placeholder="Enter your name">
+          <input class="align_block--gray" type="text" placeholder="Enter your email">
+          <button class="btn--neon text__regular" type="submit">Subscribe </button>
+        </div>
+      </div>
+      <img src="public/img/bg-form.png" alt="">
     </div>
   </main>
-  <footer>
-    <a href="#">SUPPORT</a>
-    <a href="#">ABOUT US</a>
-    <div>
+  <footer class="footer--bg">
+    <div class="support__ancord">
+      <a class="footer__link--white reg--24" href="#">SUPPORT</a>
+      <a class="footer__link--white reg--24" href="#">ABOUT US</a>
+    </div>
+    <div class="social-media">
       <a href="#"><img src="public/img/facebook.png" alt=""></a>
       <a href="#"><img src="public/img/tiktok.png" alt=""></a>
       <a href="#"><img src="public/img/instagram.png" alt=""></a>
     </div>
-    <a href="#">TERMS & CONDITIONS</a>
+    <a class="footer__link--white reg--24" href="#">TERMS & CONDITIONS</a>
   </footer>
 </body>
 
