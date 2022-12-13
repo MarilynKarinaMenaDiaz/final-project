@@ -1,6 +1,3 @@
-@charset "UTF-8";
-
-/*Responsive para Tablet*/
 @media (max-width: 1023px) {
   .img__computer {
     width: 863.84px;
@@ -47,7 +44,6 @@
   }
 }
 
-/*Responsive para Móvil*/
 @media (max-width: 767px) {
   .container {
     width: 100% !important;
@@ -132,7 +128,6 @@
   }
 }
 
-/*Responsive para Tablet*/
 @media (max-width: 1023px) {
   h2.subtitle {
     margin-top: 22px !important;
@@ -148,7 +143,6 @@
   }
 }
 
-/*Responsive para Móvil*/
 @media (max-width: 768px) {
   h2.subtitle {
     text-align: center !important;
@@ -198,7 +192,7 @@ body {
 
 .add__btn {
   background-color: #fff;
-  background-image: url(../../public/img/cart.png);
+  background-image: url(../img/cart.png);
   background-repeat: no-repeat;
   background-position: 140px;
   background-size: 40px;
@@ -232,7 +226,7 @@ body {
   border: #42f8fa 1px solid;
 }
 
-.container-design-system --center {
+.container-design-system--center {
   display: flex;
   justify-content: space-around;
 }
@@ -255,7 +249,7 @@ body {
   cursor: pointer;
 }
 
-.container-design-system -system {
+.container-design-system {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -578,10 +572,6 @@ h2.subtitle {
   height: 497px;
   margin-top: 3.5%;
   margin-left: 3%;
-}
-
-main {
-  min-width: 64rem;
 }
 
 .store-menu {
