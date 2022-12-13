@@ -1,10 +1,11 @@
-.container--flex{
+.container__flex{
   display: flex;
   justify-content: space-evenly;
 }
 
 h2.subtitle {
   margin-top: 9px;
+  margin-left: 34px;
 }
 
 .container--product {
@@ -12,7 +13,7 @@ h2.subtitle {
   align-items: center;
   justify-content: end;
   flex-direction: column;
-  margin: 0 0% 21% 0%;
+  margin: 0% 0% 25% 0%;
 }
 
 .subtitle__secondary{
@@ -23,7 +24,7 @@ h2.subtitle {
   margin: 20px;
 }
 
-.text--price {
+.text__price {
   font-weight: 700;
   font-size: 48px;
   margin-bottom: 3rem;
@@ -31,7 +32,7 @@ h2.subtitle {
   text-align: center;
 }
 
-.list--styles__features {
+.list__features--styles {
   list-style: none;
   font-weight: 500;
   font-size: 24px;
@@ -44,8 +45,9 @@ h2.subtitle {
   margin: 2rem;
 }
 
-.img--corsair{
+.img__corsair{
   width: 497px;
   height: 497px;
   margin-top: 3.5%;
+  margin-left: 3%;
 }

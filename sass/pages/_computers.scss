@@ -4,7 +4,7 @@
   height: 608.67px;
 }
 
-.subtitle--center{
+.subtitle__center{
   margin-top: 52px;
   margin-bottom: 53px;
   text-align: center;
@@ -16,11 +16,15 @@
   text-align: center;
 }
 
-.price--computer{
+.price__computer{
   margin-bottom: 21%;
   margin-top: 22%;
   font-weight: 700;
   font-size: 48px;
   line-height: 7px;
   text-align: center;
+}
+
+.subtitle__secondary--width{
+  width: 423px;
 }

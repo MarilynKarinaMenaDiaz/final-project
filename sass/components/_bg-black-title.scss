@@ -1,9 +1,14 @@
-.bg--black__title{
-  text-align: center;
+.bg__black{
   background-color: $black;
   height: 196px;
+  background-size: cover;
+  margin-bottom: 6%;
+}
+
+.bg__black--title{
   margin-left: -8px;
   margin-top: 0;
+  text-align: center;
   font-weight: 600;
   font-size: 36px;
   line-height: 169px;
