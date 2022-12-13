@@ -1,0 +1,27 @@
+.to-suscribe {
+    position: relative;
+}
+
+.to-suscribe img{
+    margin: 0;
+}
+
+.to-suscribe--order {
+    display: flex;
+    align-items: center;
+    gap: 5.3125rem;
+    position: relative;
+    top: 21.875rem;
+}
+
+.to-suscribe--order p {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #D9D9D9 ;
+    width: 45.0625rem;
+    height: 10.1875rem;
+}
+
+.to-suscribe--income input {
+    margin-left: 0;
+}

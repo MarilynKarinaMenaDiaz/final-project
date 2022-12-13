@@ -1,0 +1,101 @@
+.banner-major {
+    display: flex;
+    align-items: center;
+    margin-top: 132px;
+    align-items: initial;
+}
+
+.banner-major img {
+
+    width: 653px;
+    height: 800px;
+}
+
+.banner-major--text {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: bold;
+    width: 559px;
+    height: 356px;
+}
+
+.banner-major--text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    width: 251px;
+    height: 146px;
+}
+
+
+.banner-major--buttons {
+    display: flex;
+    align-items: center;
+    width: 29.875rem;
+    gap: 3.125rem;
+}
+
+.buttons__see-more {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+//Movil
+@media screen and (min-width: 320px) and (max-width:767px){
+
+    .banner-major {
+        width: 32.5625rem;
+        display: flex;
+        flex-direction: column;
+        gap: 18.75rem;
+        margin: 0 auto;
+    }
+
+    .banner-major--text {
+        margin: 0 auto;
+    }
+
+    .to-suscribe {
+        padding-top: 0;
+    }
+
+    .to-suscribe img {
+        width: 100%;
+        height: 43.75rem;
+        margin: 0;
+        position: relative;
+        bottom: 14.375rem;
+        z-index: -1;
+
+    }
+
+    .to-suscribe--order {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 31.25rem;
+        left: -0.125rem;
+    }
+}
+
+//Tablet 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .banner-major--rwd-tablet {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .banner-major--rwd-tablet p {
+        padding-right: 12.5rem;
+        width: 18.75rem;
+    }
+
+    .banner-major {
+        width: 29.375rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 18.75rem;
+    }
+}
