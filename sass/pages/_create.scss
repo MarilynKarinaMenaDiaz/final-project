@@ -1,9 +1,15 @@
-.policy {
-  display: flex;
-  justify-content: center;
+.policies {
+  font-size: 24px;
+  font-weight: 400;
   text-align: center;
 }
 
 .policy--neon:hover {
   color: $neon-blue;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .policies {
+    font-size: 18px;
+  }
 }

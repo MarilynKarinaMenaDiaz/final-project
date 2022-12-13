@@ -1,17 +1,3 @@
-.btm-space {
-  margin-bottom: 65px;
-}
-
-.bold--48 {
-  font-size: 48px;
-  font-weight: 700;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 .checkbox {
   border: $black solid 2px;
   border-radius: 5px;
@@ -19,76 +5,77 @@
   width: 36px;
 }
 
-.form--center {
-  text-align: center;
-}
-
-.forgot:hover {
+.forgot-password:hover {
   color: $neon-blue;
 }
 
-.log__form {
-  padding: 126px 496px 65px;
+.log-in__form--center {
+  margin-top: 40px;
+  text-align: center;
 }
 
-.log-in--margin {
-  margin: 126px 0 117px;
-}
-
-.reg--24 {
+.log-in__form {
+  align-items: center;
+  display: flex;
   font-size: 24px;
   font-weight: 400;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  max-width: 1115px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.pass {
+.password-asks {
   display: flex;
-  justify-content: space-evenly;
+  font-size: 24px;
+  font-weight: 400;
+  gap: 188px;
 }
 
-.sign-in__btn--margin-1 {
-  display: block;
-  margin: 111px 0 189px 698px;
-}
-
-.sign-in__btn--margin-2 {
-  display: block;
-  margin-left: 596px;
-}
-
-.pass--justify {
-  display: flex;
+.remind-checkbox {
   align-items: center;
+  display: flex;
 }
 
-@media (min-width: 768px) and (max-width: 960px) {
+.subtitle__forms {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+@media (min-width: 1024px) {
   .container {
-    max-width: 870px;
+    max-width: 1349px;
+    margin: 0 auto;
   }
+}
 
-  .log__form {
-    padding: 44px 96px 12px;
-    gap: 56px;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .profile-icon {
-    height: 172px;
-    width: auto;
-  }
-
-  .log-in--margin {
-    margin: 25px 0 51px;
-  }
-
-  .sign-in__btn--margin-1 {
-    margin: 90px 0 30px 350px;
-  }
-
-  .sign-in__btn--margin-2 {
-    margin-left: 256px;
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .log-in__form {
+    font-size: 18px;
+  }
+
+  .profile-icon {
+    height: 165px;
+    width: auto;
+  }
+
+  .password-asks {
+    font-size: 18px;
+    gap: 53px;
+    margin: 22px 33px;
+  }
 }

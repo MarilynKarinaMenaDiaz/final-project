@@ -13,85 +13,100 @@
 </head>
 
 <body>
-  <header>
-    <nav class="container">
-      <ul class="list-nav">
-        <li><input class="align_block-search" type="search" name="search" id="search" placeholder="SEARCH"></li>
-        <li class="wrapper">
-          <a class="reg--24" href="#">SHOP</a>
-          <ul class="menu">
-            <li>
-              <h3 class="title--white">COMPUTERS</h3>
-              <ul class="list-item">
-                <li><a href="#">Pre-assembled PCs</a></li>
-                <li><a href="#">Laptops </a></li>
-              </ul>
-            </li>
-            <li>
-              <h3 class="title--white">COMPONENTS</h3>
-              <ul class="list-item">
-                <li><a href="#">Motherboard</a></li>
-                <li><a href="#">Processor</a></li>
-                <li><a href="#">RAM Memory</a></li>
-                <li><a href="#">Graphics Card</a></li>
-                <li><a href="#">Storage</a></li>
-                <li><a href="#">Cooling</a></li>
-                <li><a href="#">Fans</a></li>
-                <li><a href="#">Power</a></li>
-                <li><a href="#">Supplies</a></li>
-                <li><a href="#">Cases</a></li>
-              </ul>
-            </li>
-            <li>
-              <h3 class="title--white">ACCESSORIES</h3>
-              <ul class="list-item">
-                <li><a href="#">Speakers</a></li>
-                <li><a href="#">Tools</a></li>
-                <li><a href="#">Headsets</a></li>
-                <li><a href="#">Mouse</a></li>
-                <li><a href="#">Keyboard</a></li>
-                <li><a href="#">Microphone</a></li>
-                <li><a href="#">Web Cam</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a class="title" href="index.html">U.C.O</a></li>
-        <li><a href="#"><img src="public/img/cart.png" alt=""></a></li>
-        <li><a class="reg--24" href="log_in.html">LOG IN</a></li>
-      </ul>
-    </nav>
+  <header class="head__border">
+    <div class="container">
+      <div class="search-input container">
+        <input class="header-search__input header-search__input--position" type="search" name="search" id="search"
+          placeholder="SEARCH">
+      </div>
+      <nav class="container">
+        <ul class="nav-bar">
+          <li class="wrapper">
+            <a href="#">SHOP</a>
+            <ul class="dropdawn-menu">
+              <li>
+                <h3 class="dropdawn-menu__subtitle">COMPUTERS</h3>
+                <ul class="products-list">
+                  <li><a href="#">Pre-assembled PCs</a></li>
+                  <li><a href="#">Laptops </a></li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="dropdawn-menu__subtitle">COMPONENTS</h3>
+                <ul class="products-list">
+                  <li><a href="#">Motherboard</a></li>
+                  <li><a href="#">Processor</a></li>
+                  <li><a href="#">RAM Memory</a></li>
+                  <li><a href="#">Graphics Card</a></li>
+                  <li><a href="#">Storage</a></li>
+                  <li><a href="#">Cooling</a></li>
+                  <li><a href="#">Fans</a></li>
+                  <li><a href="#">Power</a></li>
+                  <li><a href="#">Supplies</a></li>
+                  <li><a href="#">Cases</a></li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="dropdawn-menu__subtitle">ACCESSORIES</h3>
+                <ul class="products-list">
+                  <li><a href="#">Speakers</a></li>
+                  <li><a href="#">Tools</a></li>
+                  <li><a href="#">Headsets</a></li>
+                  <li><a href="accessories.html">Mouse</a></li>
+                  <li><a href="#">Keyboard</a></li>
+                  <li><a href="#">Microphone</a></li>
+                  <li><a href="#">Web Cam</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="title" href="index.html">U.C.O</a></li>
+          <li><a class="cart-img" href="#"><img src="public/img/cart.png" alt=""></a></li>
+          <li><a href="log_in.html">LOG IN</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <main class="container">
-    <div class="form--center">
-      <img src="public/img/profile-logo-big.png" alt="">
-      <h2 class="bold--48">Create an account</h2>
+  <main>
+    <div class="log-in__form">
+      <div class="log-in__form--center">
+        <img class="profile-icon" src="public/img/profile-logo-big.png" alt="">
+        <h2 class="subtitle__forms">Create an account</h2>
+      </div>
+      <form class="log-in__form">
+        <div>
+          <label for="log-name">Enter your name</label>
+          <input class="account__form" type="text" name="log-name" id="log-name">
+        </div>
+        <div>
+          <label for="log-email">Enter your email</label>
+          <input class="account__form" type="text" name="log-email" id="log-email">
+        </div>
+        <div>
+          <label for="log-pass">Enter your password</label>
+          <input class="account__form" type="text" name="log-pass" id="log-pass">
+        </div>
+      </form>
+      <p class="policies">Your personal information will be used to process your order and support your
+        experience
+        on this
+        site.<span><a class="policy--neon" href="#">Privacy Policy</a></span></p>
+      <button class="account__btn" type="submit">Register</button>
     </div>
-    <form class="log__form">
-      <label class="reg--24" for="log-name">Enter your name</label>
-      <input class="align_block--black" type="text" name="log-name" id="log-name">
-      <label class="reg--24" for="log-email">Enter your email</label>
-      <input class="align_block--black" type="text" name="log-email" id="log-email">
-      <label class="reg--24" for="log-pass">Enter your password</label>
-      <input class="align_block--black" type="text" name="log-pass" id="log-pass">
-    </form>
-    <p class="policy reg--24">Your personal information will be used to process your order and support your experience
-      on this
-      site.<span><a class="policy--neon" href="#">Privacy Policy</a></span></p>
-    <button class="btn--black text__regular sign-in__btn--margin-1" type="submit">Register</button>
   </main>
-  <footer class="footer--bg">
-    <div class="support__ancord">
-      <a class="footer__link--white reg--24" href="#">SUPPORT</a>
-      <a class="footer__link--white reg--24" href="#">ABOUT US</a>
+  <footer class="footer__bg">
+    <div class="container footer__bg-container">
+      <div class="ancord__container">
+        <a class="footer__link" href="#">SUPPORT</a>
+        <a class="footer__link" href="#">ABOUT US</a>
+      </div>
+      <div class="social-media">
+        <a href="https://www.facebook.com/"><img src="public/img/facebook.png" alt=""></a>
+        <a href="https://www.tiktok.com/es/"><img src="public/img/tiktok.png" alt=""></a>
+        <a href="https://www.instagram.com/"><img src="public/img/instagram.png" alt=""></a>
+      </div>
+      <a class="footer__link" href="#">TERMS & CONDITIONS</a>
     </div>
-    <div class="social-media">
-      <a href="#"><img src="public/img/facebook.png" alt=""></a>
-      <a href="#"><img src="public/img/tiktok.png" alt=""></a>
-      <a href="#"><img src="public/img/instagram.png" alt=""></a>
-    </div>
-    <a class="footer__link--white reg--24" href="#">TERMS & CONDITIONS</a>
   </footer>
-</body>
 
 </html>

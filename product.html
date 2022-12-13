@@ -1,84 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="public/css/styles.css" />
-    <title>Product</title>
-  </head>
-  <body>
-    <div class="container bg__black">
-      <h1 class="bg__black--title">ACCESSORIES</h1>
-      <h2 class="subtitle__line">MOUSE</h2>
-    </div>
-    <main>
-      <div class="container__flex container">
-        <h2 class="subtitle">ACCESSORIES</h2>
-        <div class="container__box">
-          <h3 class="subtitle__box">CATEGORY</h3>
-          <ul class="list__box">
-            <li><a href="#">Speakers</a></li>
-            <li><a href="#">Tools</a></li>
-            <li><a href="#">Headsets</a></li>
-            <li><a href="#">Mouse</a></li>
-            <li><a href="#">Keyboard</a></li>
-            <li><a href="#">Microphone</a></li>
-            <li><a href="#">Web Cam</a></li>
-          </ul>
-        </div>
-        <img class="img__corsair" src="public/img/mouse.png" alt="" />
-        <div class="container--product container">
-          <h3 class="subtitle__secondary">Corsair KATAR PRO</h3>
-          <img class="img__star" src="public/img/half-star.png" alt="" />
-          <span class="text__price">$15 USD</span>
-          <ul class="list__features--styles">
-            <li>AVAILABILITY: IN STOCK</li>
-            <li>SKU: CH-930C011-NA</li>
-            <li>CATEGORY: MOUSE</li>
-          </ul>
-          <button class="btn-cart subtitle" type="submit">ADD</button>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="public/css/styles.css" />
+  <title>Product</title>
+</head>
+
+<body>
+  <header class="head__border">
+    <div class="container">
+      <div class="search-input container">
+        <input class="header-search__input header-search__input--position" type="search" name="search" id="search"
+          placeholder="SEARCH">
       </div>
-    </main>
-    <div class="description__above--line container">
-      <h4 class="subtitle__description">Description</h4>
-      <p class="text__description">
-        Enjoy the lightweight design and heavyweight performance of the
-        ultra-lightweight CORSAIR KATAR PRO gaming mouse. It weighs only 69g,
-        has a compact symmetrical shape and features an accurate 12,400 dpi
-        optical sensor.
-      </p>
+      <nav class="container">
+        <ul class="nav-bar">
+          <li class="wrapper">
+            <a href="#">SHOP</a>
+            <ul class="dropdawn-menu">
+              <li>
+                <h3 class="dropdawn-menu__subtitle">COMPUTERS</h3>
+                <ul class="products-list">
+                  <li><a href="#">Pre-assembled PCs</a></li>
+                  <li><a href="#">Laptops </a></li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="dropdawn-menu__subtitle">COMPONENTS</h3>
+                <ul class="products-list">
+                  <li><a href="#">Motherboard</a></li>
+                  <li><a href="#">Processor</a></li>
+                  <li><a href="#">RAM Memory</a></li>
+                  <li><a href="#">Graphics Card</a></li>
+                  <li><a href="#">Storage</a></li>
+                  <li><a href="#">Cooling</a></li>
+                  <li><a href="#">Fans</a></li>
+                  <li><a href="#">Power</a></li>
+                  <li><a href="#">Supplies</a></li>
+                  <li><a href="#">Cases</a></li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="dropdawn-menu__subtitle">ACCESSORIES</h3>
+                <ul class="products-list">
+                  <li><a href="#">Speakers</a></li>
+                  <li><a href="#">Tools</a></li>
+                  <li><a href="#">Headsets</a></li>
+                  <li><a href="accessories.html">Mouse</a></li>
+                  <li><a href="#">Keyboard</a></li>
+                  <li><a href="#">Microphone</a></li>
+                  <li><a href="#">Web Cam</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="title" href="index.html">U.C.O</a></li>
+          <li><a class="cart-img" href="#"><img src="public/img/cart.png" alt=""></a></li>
+          <li><a href="log_in.html">LOG IN</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="container__list--flex container">
-      <ul class="list__styles--1">
-        <li>Programming buttons - 6</li>
-        <li>dpi - 12,400 dpi</li>
-        <li>Sensor - PAW3327</li>
-        <li>Sensor Type - Optical</li>
-        <li>Mouse Backlight - 2 RGB zones</li>
-        <li>Built-in memory - Yes (no macro and key reassignments)</li>
-        <li>Built-in memory profiles - 1</li>
-        <li>Mouse Backlight - 2 RGB zones</li>
-        <li>Mouse Button Durability - 30M L/R Click</li>
-        <li>Connectivity - Cable</li>
-      </ul>
-      <ul class="list__styles--2">
-        <li>Grip Type - Claw, Fingertips</li>
-        <li>Weight adjustment - No</li>
-        <li>Hand Size - Small, Medium</li>
-        <li>Game genre - FPS, Battle Royale, MOBAl</li>
-        <li>Weight - 69 g (without cable and accessories)</li>
-        <li>Cable - 1.8m Anti-Tangle Rubber)</li>
-        <li>CUE compatible software - iCUE</li>
-        <li>Selectable reporting rate - 1000 Hz/500 Hz/250 Hz/125 Hz</li>
-      </ul>
+  </header>
+  <div class="container bg__black">
+    <h1 class="bg__black--title">ACCESSORIES</h1>
+    <h2 class="subtitle__line">MOUSE</h2>
+  </div>
+  <main>
+    <div class="container__flex container">
+      <h2 class="subtitle">ACCESSORIES</h2>
+      <div class="container__box">
+        <h3 class="subtitle__box">CATEGORY</h3>
+        <ul class="list__box">
+          <li><a href="#">Speakers</a></li>
+          <li><a href="#">Tools</a></li>
+          <li><a href="#">Headsets</a></li>
+          <li><a href="#">Mouse</a></li>
+          <li><a href="#">Keyboard</a></li>
+          <li><a href="#">Microphone</a></li>
+          <li><a href="#">Web Cam</a></li>
+        </ul>
+      </div>
+      <img class="img__corsair" src="public/img/mouse.png" alt="" />
+      <div class="container--product container">
+        <h3 class="subtitle__secondary">Corsair KATAR PRO</h3>
+        <img class="img__star" src="public/img/half-star.png" alt="" />
+        <span class="text__price">$15 USD</span>
+        <ul class="list__features--styles">
+          <li>AVAILABILITY: IN STOCK</li>
+          <li>SKU: CH-930C011-NA</li>
+          <li>CATEGORY: MOUSE</li>
+        </ul>
+        <button class="add__btn" type="submit">ADD</button>
+      </div>
     </div>
-  </body>
+  </main>
+  <div class="description__above--line container">
+    <h4 class="subtitle__description">Description</h4>
+    <p class="text__description">
+      Enjoy the lightweight design and heavyweight performance of the
+      ultra-lightweight CORSAIR KATAR PRO gaming mouse. It weighs only 69g,
+      has a compact symmetrical shape and features an accurate 12,400 dpi
+      optical sensor.
+    </p>
+  </div>
+  <div class="container__list--flex container">
+    <ul class="list__styles--1">
+      <li>Programming buttons - 6</li>
+      <li>dpi - 12,400 dpi</li>
+      <li>Sensor - PAW3327</li>
+      <li>Sensor Type - Optical</li>
+      <li>Mouse Backlight - 2 RGB zones</li>
+      <li>Built-in memory - Yes (no macro and key reassignments)</li>
+      <li>Built-in memory profiles - 1</li>
+      <li>Mouse Backlight - 2 RGB zones</li>
+      <li>Mouse Button Durability - 30M L/R Click</li>
+      <li>Connectivity - Cable</li>
+    </ul>
+    <ul class="list__styles--2">
+      <li>Grip Type - Claw, Fingertips</li>
+      <li>Weight adjustment - No</li>
+      <li>Hand Size - Small, Medium</li>
+      <li>Game genre - FPS, Battle Royale, MOBAl</li>
+      <li>Weight - 69 g (without cable and accessories)</li>
+      <li>Cable - 1.8m Anti-Tangle Rubber)</li>
+      <li>CUE compatible software - iCUE</li>
+      <li>Selectable reporting rate - 1000 Hz/500 Hz/250 Hz/125 Hz</li>
+    </ul>
+  </div>
+  <footer class="footer__bg">
+    <div class="container footer__bg-container">
+      <div class="ancord__container">
+        <a class="footer__link" href="#">SUPPORT</a>
+        <a class="footer__link" href="#">ABOUT US</a>
+      </div>
+      <div class="social-media">
+        <a href="https://www.facebook.com/"><img src="public/img/facebook.png" alt=""></a>
+        <a href="https://www.tiktok.com/es/"><img src="public/img/tiktok.png" alt=""></a>
+        <a href="https://www.instagram.com/"><img src="public/img/instagram.png" alt=""></a>
+      </div>
+      <a class="footer__link" href="#">TERMS & CONDITIONS</a>
+    </div>
+  </footer>
+</body>
+
 </html>

@@ -4,18 +4,52 @@ a {
   text-decoration: none;
 }
 
-.list-nav {
-  align-items: center;
-  border-bottom: $black solid 1px;
+.dropdawn-menu {
+  //menu
+  background-color: $black;
+  box-sizing: border-box;
   display: flex;
-  gap: 210px;
-  list-style: none;
-  justify-content: space-evenly;
-  padding: 44px 128px 35px 0;
+  gap: 266px;
+  height: 0;
+  justify-content: center;
+  left: 0;
+  line-height: 20px;
+  margin-top: 65px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
   text-align: center;
+  transition: height 0.3s ease-in-out;
+  transition-delay: 0.1s;
+  width: 100%;
 }
 
-.list-item {
+.dropdawn-menu__subtitle {
+  //title--white
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.head__border {
+  border-bottom: $black solid 1px;
+}
+
+.nav-bar {
+  //list-nav
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+  font-weight: 400;
+  gap: 143px;
+  justify-content: center;
+  list-style: none;
+  padding: 44px 0;
+  margin-left: 169px;
+}
+
+.products-list {
+  //list-item
   padding: 0;
   a {
     color: #fff;
@@ -32,27 +66,9 @@ a {
   }
 }
 
-.menu {
-  background-color: $black;
-  box-sizing: border-box;
-  display: flex;
-  height: 0;
-  justify-content: space-evenly;
-  left: 0;
-  line-height: 20px;
-  margin-top: 14px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  transition: height 0.3s ease-in-out;
-  transition-delay: 0.1s;
-  width: 100%;
-}
-
-.title--white {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 400;
+.search-input {
+  //buscador
+  margin-left: 17px;
 }
 
 .wrapper {
@@ -60,8 +76,8 @@ a {
   margin-right: 15px;
   transition: all 0.3s ease-in-out;
   &:hover {
-    .menu {
-      height: 528px;
+    .dropdawn-menu {
+      height: 550px;
     }
     a::before {
       transform: scale(1, 1);
@@ -70,12 +86,49 @@ a {
   }
 }
 
-@media (min-width: 768px) and (max-width: 960px) {
-  .list-nav {
-    gap: 20px;
-    padding: 44px 46px 26px 0;
+@media (min-width: 768px) and (max-width: 1023px) {
+  .dropdawn-menu {
+    gap: 42px;
+  }
+
+  .nav-bar {
+    gap: 70px;
+    margin-left: 87px;
+  }
+
+  .search-input {
+    margin-left: 17px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .cart-img {
+    height: 39px;
+  }
+
+  .dropdawn-menu {
+    display: block;
+  }
+
+  .dropdawn-menu__subtitle {
+    margin-top: 75px;
+  }
+
+  .nav-bar {
+    font-size: 18px;
+    gap: 13px;
+    margin-left: 0;
+  }
+
+  .products-list {
+    a {
+      font-size: 18px;
+    }
+  }
+
+  .wrapper:hover {
+    .dropdawn-menu {
+      height: 1200px;
+    }
+  }
 }

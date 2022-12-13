@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,9 +11,64 @@
   <link rel="stylesheet" href="public/css/styles.css" />
   <title>Home</title>
 </head>
+
 <body>
+  <header class="head__border">
+    <div class="container">
+      <div class="search-input container">
+        <input class="header-search__input header-search__input--position" type="search" name="search" id="search"
+          placeholder="SEARCH">
+      </div>
+      <nav class="container">
+        <ul class="nav-bar">
+          <li class="wrapper">
+            <a href="#">SHOP</a>
+            <ul class="dropdawn-menu">
+              <li>
+                <h3 class="dropdawn-menu__subtitle">COMPUTERS</h3>
+                <ul class="products-list">
+                  <li><a href="#">Pre-assembled PCs</a></li>
+                  <li><a href="#">Laptops </a></li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="dropdawn-menu__subtitle">COMPONENTS</h3>
+                <ul class="products-list">
+                  <li><a href="#">Motherboard</a></li>
+                  <li><a href="#">Processor</a></li>
+                  <li><a href="#">RAM Memory</a></li>
+                  <li><a href="#">Graphics Card</a></li>
+                  <li><a href="#">Storage</a></li>
+                  <li><a href="#">Cooling</a></li>
+                  <li><a href="#">Fans</a></li>
+                  <li><a href="#">Power</a></li>
+                  <li><a href="#">Supplies</a></li>
+                  <li><a href="#">Cases</a></li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="dropdawn-menu__subtitle">ACCESSORIES</h3>
+                <ul class="products-list">
+                  <li><a href="#">Speakers</a></li>
+                  <li><a href="#">Tools</a></li>
+                  <li><a href="#">Headsets</a></li>
+                  <li><a href="accessories.html">Mouse</a></li>
+                  <li><a href="#">Keyboard</a></li>
+                  <li><a href="#">Microphone</a></li>
+                  <li><a href="#">Web Cam</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a class="title" href="index.html">U.C.O</a></li>
+          <li><a class="cart-img" href="#"><img src="public/img/cart.png" alt=""></a></li>
+          <li><a href="log_in.html">LOG IN</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <main>
-    <div class="banner-major">
+    <div class="banner-major container">
       <div class="banner-major--text">
         <div class="banner-major--rwd-tablet">
           <h1>CREATE. PLAY. DOMINATE.</h1>
@@ -20,24 +76,38 @@
             gamers who create.</p>
         </div>
         <div class="banner-major--buttons">
-          <button class="btn-cart subtitle" type="submit">ADD</button>
-          <a class="buttons__see-more" href="#">+ SEE MORE</a>
+          <button class="add__btn" type="submit">ADD</button>
+          <a class="buttons__see-more" href="computers.html">+ SEE MORE</a>
         </div>
       </div>
       <img src="public/img/ComputerAlone.png" alt="">
     </div>
-    <div class="to-suscribe">
+    <div class="to-suscribe container">
       <div class="to-suscribe--order">
         <p>Subscribe to our newsletter and keep up to date with discounts and special offers</p>
         <div class="to-suscribe--income">
-          <input class="align_block--gray" type="text" placeholder="Enter your name">
-          <input class="align_block--gray" type="text" placeholder="Enter your email">
-          <button class="btn--neon text__regular" type="submit">Subscribe </button>
+          <input class="home-input__form" type="text" placeholder="Enter your name">
+          <input class="home-input__form" type="text" placeholder="Enter your email">
+          <button class="subscribe__btn design-system__body__font " type="submit">Subscribe </button>
         </div>
       </div>
       <img src="public/img/bg-form.png" alt="">
     </div>
   </main>
+  <footer class="footer__bg">
+    <div class="container footer__bg-container">
+      <div class="ancord__container">
+        <a class="footer__link" href="#">SUPPORT</a>
+        <a class="footer__link" href="#">ABOUT US</a>
+      </div>
+      <div class="social-media">
+        <a href="https://www.facebook.com/"><img src="public/img/facebook.png" alt=""></a>
+        <a href="https://www.tiktok.com/es/"><img src="public/img/tiktok.png" alt=""></a>
+        <a href="https://www.instagram.com/"><img src="public/img/instagram.png" alt=""></a>
+      </div>
+      <a class="footer__link" href="#">TERMS & CONDITIONS</a>
+    </div>
+  </footer>
 </body>
 
 </html>
