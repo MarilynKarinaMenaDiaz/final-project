@@ -1,8 +1,8 @@
-.description--above--line{
+.description__above--line{
   border-top: 1px solid $black;
 }
 
-.container--flex__list{
+.container__flex--list{
   display: flex;
   align-items: center;
   justify-content: end;
@@ -10,7 +10,7 @@
   margin: 0% 0% 21% 0%;
 }
 
-.subtitle--description{
+.subtitle__description{
   font-weight: 600;
   font-size: 36px;
   line-height: 42px;
@@ -18,7 +18,7 @@
   margin-left: 6%;
 }
 
-.text--description{
+.text__description{
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -27,13 +27,13 @@
   margin-top: -1%;
 }
 
-.container--list__flex {
+.container__list--flex {
   display: flex;
   justify-content: space-between;
   font-size: 24px;
 }
 
-.list--styles--1 {
+.list__styles--1 {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -43,11 +43,11 @@
   width: 36%; 
 }
 
-.list--styles--1 li {
+.list__styles--1 li {
   margin: 0 0 2rem 0;
 }
 
-.list--styles--2{
+.list__styles--2{
   list-style: none;
   padding: 0;
   margin: 0;
@@ -56,7 +56,6 @@
   width: 42%;
 }
 
-.list--styles--2 li {
+.list__styles--2 li {
   margin: 0 0 2rem 0;
 }
-

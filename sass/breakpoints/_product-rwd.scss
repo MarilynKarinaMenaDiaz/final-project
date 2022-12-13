@@ -1,0 +1,36 @@
+/*Responsive para Tablet*/
+@media (max-width: 1023px) { 
+  h2.subtitle {
+    margin-top: 22px !important;
+    margin-left: 35px!important;
+}
+.container__box {
+    margin: 7% 0% 27% -16% !important;
+}
+
+.img__corsair {
+  margin-left: 5% !important;
+}
+}
+
+/*Responsive para Móvil*/
+@media (max-width: 768px) {
+h2.subtitle {
+  text-align: center !important;
+  margin-top: 46px !important;
+}
+
+.container__box {
+  margin: 0 auto !important;
+  justify-content: center !important;
+}
+
+.img__corsair {
+  width: auto !important;
+  height: 190px !important;
+  margin: 0 auto !important;
+}
+.container--product{
+  margin: 0 auto !important;
+}
+}

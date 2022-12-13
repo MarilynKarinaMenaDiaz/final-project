@@ -1,0 +1,132 @@
+
+/*Responsive para Tablet*/
+@media(max-width: 1023px) {
+.img__computer {
+  width: 863.84px;
+  height: 638px;
+  margin: 0% ;
+}
+
+.container__flex--list {
+  justify-content: center;
+  margin: 0 auto;
+  margin-left: 16%;
+}
+
+.img__star {
+  margin: 3rem;
+}
+
+.price__computer {
+  margin-bottom: 9%;
+  margin-left: 1%;
+  margin-top: 4%;
+}
+
+.list__features--styles {
+  margin: 0% 0% 6% -4%;
+}
+
+.subtitle__description {
+  margin-left: 4%;
+}
+
+.text__description {
+  margin-left: 4%;
+  width: 92%;
+  margin-top: -4%;
+}
+
+.list__styles--1 {
+  margin-left: 4%;
+}
+
+.list__styles--2 {
+  margin-left: 4%;
+}
+}
+
+/*Responsive para Móvil*/
+@media (max-width: 767px ) {
+.container{
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+.bg__black--title{
+  font-size: 23px !important;
+}
+
+.subtitle__line{
+  font-size: 23px !important;
+}
+
+.subtitle__secondary{
+  font-size: 32px !important;
+}
+
+.subtitle__secondary{
+  width: 250px !important;
+}
+
+.container__flex {
+  flex-direction: column !important;
+}
+
+.subtitle__center{
+  font-size: 24px !important;
+}
+
+.img__computer {
+  width: auto !important;
+  height: 190px !important;
+  margin: 0 auto !important;
+}
+
+.container__flex--list {
+  justify-content: center!important;
+  margin: 0 auto !important;
+}
+
+.img__star {
+  margin: 3px ;
+}
+
+.price__computer {
+  margin-bottom: 13% !important;
+  margin-left: 1% !important;
+  margin-bottom: 60px !important;
+  font-size: 32px !important;
+}
+
+.subtitle__description {
+  margin-left: 6% !important;
+  font-size: 24px !important;
+}
+
+.text__description {
+  margin-top: -3% !important;
+  font-size: 18px !important;
+} 
+
+.list__features--styles {
+  margin: 0% 0% 10% -3% !important;
+  font-size: 18px !important;
+}
+
+.container__list--flex {
+  font-size: 22px;
+  flex-direction: column !important;
+}
+
+.list__styles--1 {
+  width: 88%!important;
+  font-size: 18px !important;
+}
+
+.list__styles--2 {
+  margin-left: 6% !important;
+  width: 88%!important;
+  font-size: 18px !important;
+}
+}
